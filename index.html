@@ -1,0 +1,279 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/styles.css"  media="screen,projection"/>
+
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="icon" href="favicon.ico" type="image/x-icon">
+      <meta name="referrer" content="origin" />
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!--Dev Icons, Font Awesome-->
+      <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+      <title>Portfolio</title>
+    </head>
+
+  <body>
+  <nav class="transparent" id="nav-pos">
+    <div class="nav-wrapper">      
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons blue-text text-darken-2">menu</i></a>
+      <ul class="right hide-on-med-and-down">        
+        <li><a class="waves-effect waves-blue btn transparent btn-border" href="#education">Education</a></li>
+        <li><a class="waves-effect waves-blue btn transparent btn-border" href="#projects">Projects</a></li>
+        <li><a class="waves-effect waves-blue btn transparent btn-border" href="#skills">Skills</a></li>
+        <li><a class="waves-effect waves-blue btn transparent btn-border" href="#contact">Contact</a></li>
+      </ul>
+      <ul class="side-nav blue-grey lighten-5" id="mobile-demo">
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!--End Nav -->
+
+
+    <div id="img">
+      <div id="name"><h1>Matthew Denslinger</h1></div>    
+      <div id="down" class="blue-text text-darken-2"><i class="medium material-icons arrow"><a href="#education">expand_more</a></i></div>
+    </div>
+    
+    <section id="education" class="blue-grey lighten-5">
+      <div class="container">
+        <div class="row center">
+          <h3 class="heading">Education</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 center">    
+          <div class="card z-depth-1" id="edu" style="padding: 15px;max-width:650px">
+            <div class="card-image center">
+              <img src="images/ku.png">
+            </div>
+        <div class="card-stacked">
+          <div class="card-content left-align">
+            <div>
+              <h4>Kutztown University</h4>
+              Bachelor of Science Mathematics<br>
+              Cum Laude
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- end card -->
+      </div>
+      </div>    
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row center-align">
+          <h3 class="heading">Projects</h3>
+        </div>
+      <div class="row">
+          <div class="col s12 m6 l6 xl4">
+          <div class="card medium z-depth-1 sticky-action hoverable">
+            <div class="card-image waves-effect waves-block waves-light"  style="width:100%">
+              <img class="activator" src="images/rw.png">
+            </div>
+          <div class="card-content center-align" style="border-top: 1px #dddddd solid">
+            <span class="card-title activator blue-text text-darken-2"><b>Random Walk</b><i class="material-icons right grey-text text-darken-4">more_vert</i></span>
+            <p>Built using html, css, Javascript and JQuery.</p>
+          </div>
+          <div class="card-action center-align">
+              <a href="https://mtdens.github.io/random_walk" class="blue-text text-darken-2">View Demo</a>
+              <a href="https://github.com/mtdens/random_walk" class="blue-text text-darken-2">View Code</a>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title blue-text text-darken-2">Random Walk<i class="material-icons right">close</i></span>
+            <p>Generates particles with random movement in the center of the canvas for a set duration of time. User can select 1-200 particles, energy level from 1-10, and a time duration of 1 to 180 seconds.</p>
+          </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l6 xl4">
+          <div class="card medium z-depth-1 sticky-action hoverable">
+            <div class="card-image waves-effect waves-block waves-light"  style="width:100%">
+              <img class="activator" src="images/vg1.png">
+            </div>
+          <div class="card-content center-align" style="border-top: 1px #dddddd solid">
+            <span class="card-title activator blue-text text-darken-2"><b>Vigenère Cipher</b><i class="material-icons right grey-text text-darken-4">more_vert</i></span>
+            <p>Built using html, css, Javascript and JQuery.</p>
+          </div>
+          <div class="card-action center-align">
+              <a href="https://mtdens.github.io/vignerecipher" class="blue-text text-darken-2">View Demo</a>
+              <a href="https://github.com/mtdens/vignerecipher" class="blue-text text-darken-2">View Code</a>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title blue-text text-darken-2">Vigenère  Cipher<i class="material-icons right">close</i></span>
+            <p>Allows user to encrypt or decrypt a message with a given key. Also contains directions and a brief mathematical explanation about the Vigenère  Cipher.</p>
+          </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l6 xl4">
+          <div class="card medium z-depth-1 sticky-action hoverable">
+            <div class="card-image waves-effect waves-block waves-light"  style="width:100%">
+              <img class="activator" src="images/m61.png">
+            </div>
+          <div class="card-content center-align" style="border-top: 1px #dddddd solid">
+            <span class="card-title activator blue-text text-darken-2"><b>Monte Carlo Match 6</b><i class="material-icons right grey-text text-darken-4">more_vert</i></span>
+            <p>Built using Python.</p>
+          </div>
+          <div class="card-action center-align">
+              <a href="https://github.com/mtdens/match6" class="blue-text text-darken-2">View Code</a>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title blue-text text-darken-2">Monte Carlo Match 6<i class="material-icons right">close</i></span>
+            <p>A Monte Carlo simulation of the Match 6 lottery that runs for n trials. Outputs the per play probability and the per game win probability. Also displays a graph featuring the cumulative winnings, costs, and net costs and a histogram of numbers matched of 6.</p>
+          </div>
+          </div>
+        </div>
+      	<div class="col s12 m6 l6 xl4">
+      		<div class="card medium z-depth-1 sticky-action hoverable">
+            <div class="card-image waves-effect waves-block waves-light"  style="width:100%">
+              <img class="activator" src="images/base.png">
+            </div>
+          <div class="card-content center-align" style="border-top: 1px #dddddd solid">
+            <span class="card-title activator blue-text text-darken-2"><b>Base Converter</b><i class="material-icons right grey-text text-darken-4">more_vert</i></span>
+            <p>Built using html, css, Javascript.</p>
+          </div>
+          <div class="card-action center-align">
+              <a href="https://mtdens.github.io/baseconverter" class="blue-text text-darken-2">View Demo</a>
+              <a href="https://github.com/mtdens/baseconverter" class="blue-text text-darken-2">View Code</a>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title blue-text text-darken-2">Base Converter<i class="material-icons right">close</i></span>
+            <p>Takes a postive integer in any base from 2 through 20 and converts that number to any base ranging from 2 through 20.</p>
+          </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l6 xl4">
+      		<div class="card medium z-depth-1 sticky-action hoverable">
+            <div class="card-image waves-effect waves-block waves-light"  style="width:100%">
+              <img class="activator" src="images/web.jpg">
+            </div>
+          <div class="card-content center-align" style="border-top: 1px #dddddd solid">
+            <span class="card-title activator blue-text text-darken-2"><b>Misc Websites</b><i class="material-icons right grey-text text-darken-4">more_vert</i></span>
+            <p>Built using html, css, Javascript, Wordpress, etc.</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title blue-text text-darken-2">Misc Websites<i class="material-icons right">close</i></span>
+            <p>A collection of miscellaneous websites.</p>
+            <ul>
+            	<li><a href="www.owresource.com">OWResource</a></li>
+            	<li><a href="www.learn-russia.com">Learn-Russia</a></li>
+            	<li><a href="www.incoherentrambling.com">Incoherent Rambling</a></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+    </div>
+
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="row center-align">
+          <h3 class="heading">Skills</h3>
+        </div>
+        <div class="row">
+        	<ul>
+        		<li><i class="devicon-html5-plain-wordmark"></i></li>
+        		<li><i class="devicon-css3-plain-wordmark"></i></li>
+        		<li><i class="devicon-javascript-plain"></i></li>
+		       	<li><i class="devicon-jquery-plain-wordmark"></i></li>
+		       	<li><i class="devicon-php-plain"></i></li>
+		       	<li><i class="devicon-nodejs-plain-wordmark"></i></li>
+		       	<li><i class="devicon-git-plain-wordmark"></i></li>
+		       	<li><i class="devicon-github-plain-wordmark"></i></li>
+		       	<li><i class="devicon-bootstrap-plain-wordmark"></i></li>
+		       	<li><i class="devicon-python-plain-wordmark"></i></li>
+		       	<li><i class="devicon-vuejs-plain-wordmark"></i></li>
+		       	<li><i class="devicon-cplusplus-plain"></i></li>
+            <li><i class="devicon-sass-original"></i></li>
+		       	<li><i class="devicon-mysql-plain-wordmark"></i></li>
+		       	<li><i class="devicon-wordpress-plain-wordmark"></i></li>
+		       	<li><i class="devicon-ubuntu-plain-wordmark"></i></li>
+		       	<li><i class="devicon-jasmine-plain-wordmark"></i></li>	       	
+		    </ul>
+		
+     	</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row center-align">
+          <h3 class="heading">Contact</h3>
+        </div>
+      <form action="https://formspree.io/portfolio@owresource.com" method="POST">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">email</i>
+          <input id="email" type="email" name="_replyto" class="validate" data-error="wrong" data-success="right">
+          <label for="email" data-error="wrong" data-success="right">Email</label>
+        </div>   
+        
+        <div class="input-field col s12">
+          <i class="material-icons prefix">mode_edit</i>
+          <textarea id="textarea1" type="text" name="message" class="materialize-textarea"></textarea>
+          <label for="textarea1">Your Message</label>
+        </div>    
+      
+      <div class="row">
+        <div class="col s12">
+          <button class="btn waves-effect white waves-green" id="btn-send" type="submit" name="action" value="Send">Submit
+            <i class="material-icons center">send</i>
+          </button>
+        </div>
+        </form>  
+      </div>
+      </div>
+      
+    </section>
+        <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l4 offset-l2 s12">                
+                <ul>
+                  <li><a href="https://github.com/mtdens"><i class="fab fa-github"></i></a></li>
+                  <li><a href="#"><i class="fab fa-stack-exchange"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Matthew Denslinger            
+            </div>
+          </div>
+        </footer>
+
+
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>$('.button-collapse').sideNav();
+$('a[href^="#"]').on('click', function(event){
+  event.preventDefault();
+
+  setTimeout((event) => {
+    var target = $(this.getAttribute('href'));
+    if( target.length ) {
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1500);
+    }}, 650);
+});
+
+      </script>
+    </body>
+  </html>
